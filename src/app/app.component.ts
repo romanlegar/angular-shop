@@ -13,7 +13,7 @@ export class AppComponent {
   constructor(private cartService: CartService) {
     this.components = cartService.getCartItems();
   }
-  title = 'Lesson';
+  title = 'angular-shop';
   ngOnInit() {
   this.cartService.cust.subscribe(comp => {
      let t = this.cartService.updateTotals();
