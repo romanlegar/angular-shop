@@ -580,8 +580,8 @@ if(false) {}
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\Admin\Documents\GitHub\angularH\app-hw6\src\styles.css */"./src/styles.css");
-module.exports = __webpack_require__(/*! C:\Users\Admin\Documents\GitHub\angularH\app-hw6\node_modules\bootstrap\dist\css\bootstrap.css */"./node_modules/bootstrap/dist/css/bootstrap.css");
+__webpack_require__(/*! C:\Users\Admin\Documents\GitHub\angular-shop\src\styles.css */"./src/styles.css");
+module.exports = __webpack_require__(/*! C:\Users\Admin\Documents\GitHub\angular-shop\node_modules\bootstrap\dist\css\bootstrap.css */"./node_modules/bootstrap/dist/css/bootstrap.css");
 
 
 /***/ })

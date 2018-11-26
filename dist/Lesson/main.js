@@ -139,7 +139,7 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 var AppComponent = /** @class */ (function () {
     function AppComponent(cartService) {
         this.cartService = cartService;
-        this.title = 'Lesson';
+        this.title = 'angular-shop';
         this.components = cartService.getCartItems();
     }
     AppComponent.prototype.ngOnInit = function () {
@@ -1154,7 +1154,7 @@ Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_1__["platformB
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\Admin\Documents\GitHub\angularH\app-hw6\src\main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! C:\Users\Admin\Documents\GitHub\angular-shop\src\main.ts */"./src/main.ts");
 
 
 /***/ })
