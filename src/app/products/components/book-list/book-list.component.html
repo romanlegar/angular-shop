@@ -1,0 +1,4 @@
+
+<div class="row">
+    <app-book *ngFor="let book of (booksPromise | async)" [book]="book" (buyButtonClicked)="onBookAdded($event)"></app-book>
+</div>

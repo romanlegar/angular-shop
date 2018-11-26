@@ -1,0 +1,25 @@
+<div *ngIf="components.length>0">
+    <div >
+        <div class="col-md-12 btn-row">
+          <button class="btn btn-success" name="total"> Цена: {{total}} </button>
+          <button class="btn btn-success" name="count">Количество товаров: {{count}}</button>
+          <a  href="/order"
+             class="btn btn-info pull-right"
+            (click)="onCreateOrder()"
+            data-toggle="modal"
+            data-target="#exampleModalCenter">
+            Оформить
+          </a>
+
+        </div>
+    </div>
+    <div class="table">
+        <app-cart-item *ngFor="let component of components"
+                [cartComponent]="component"
+                (removeButtonClicked)="onRemoveButtonClicked($event)"
+                (minusButtonClicked)="onMinusButtonClicked($event)"
+                (plusButtonClicked)="onPlusButtonClicked($event)"
+                ></app-cart-item>
+
+    </div>
+</div>

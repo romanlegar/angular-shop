@@ -1,0 +1,15 @@
+
+  <figure class="list-item">
+
+    <figcaption class="cart-name" [innerText]='cartComponent.name | titlecase'></figcaption>
+    <img class="cart-img" src={{cartComponent.img}} alt="img">
+    <div>
+      <button class="btn btn-secondary center-block" (click)="onMinusButtonClicked()">-</button>
+      <p class="cart-text">
+        {{cartComponent.quantity}}
+      </p>
+      <button class="btn btn-secondary center-block cart-minus" (click)="onPlusButtonClicked()">+</button>
+      <button class="btn btn-danger center-block  cart-delete" (click)="onRemoveButtonClicked()">x</button>
+    </div>
+
+  </figure>

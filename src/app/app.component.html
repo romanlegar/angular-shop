@@ -1,0 +1,13 @@
+<base href="/">
+<nav class="navbar">
+
+  <a class="nav-item" routerLink="/books" routerLinkActive="active">
+      Books-shop
+  </a>
+  <a class="nav-item cart-item" routerLink="/cart">
+    <span class="count">{{this.count}}</span>
+  </a>
+</nav>
+<div class="container">
+  <router-outlet></router-outlet>
+</div>

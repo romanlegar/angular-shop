@@ -1,0 +1,17 @@
+<div class="card col-md-3 col-xs-12">
+    <div class=" col-md-12 col-xs-12">
+      <div class="col-md-12 col-xs-12">
+          <h3 class="bg-dark text-white">
+            {{book.name  | titlecase}}
+            <a class="btn btn-success" (click)="onBuyButtonClicked()">
+              Купить: <span>{{book.price | currency}}</span>
+            </a>
+          </h3>
+      </div>
+
+      <img class="center-block card-img" src={{book.img}}>
+    </div>
+    <div class="col-md-12 col-xs-12">
+      <a (click)="onViewDetails()" class="btn btn-primary center-block">Подробности</a>
+    </div>
+</div>

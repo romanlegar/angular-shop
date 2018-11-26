@@ -1,0 +1,38 @@
+.navbar {
+  height: 50px;
+  background-color: #8A2BE2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 24px;
+
+}
+.navbar .nav-item {
+  color: white;
+}
+.navbar .nav-item:first-child {
+  background-image: url(https://www.qgis.org/en/_static/images/users-docs.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-left: 80px;
+  font-weight: bold;
+}
+.navbar .form-control {
+  width: 230px;
+}
+.navbar .cart-item {
+  width: 54px;
+  height: 44px;
+  background-size: cover;
+  background-image: url(https://ecaro.ru/local/templates/ecaro/img/u12.png);
+}
+.navbar .count {
+  position: relative;
+  left: 50px;
+  bottom: 10px;;
+  background-color: #FA8072;
+  padding: 4px 6px 4px 6px;
+  border-radius: 50%;
+  font-size: 12px;
+  border: 2px solid;
+}
